@@ -1,0 +1,32 @@
+.iphonePro,
+.iphone {
+  margin-top: 0.8rem;
+  position: relative;
+}
+
+.iphonePro h2,
+.iphone h2 {
+  position: absolute;
+  text-align: center;
+  color: white;
+  width: 100%;
+  margin-top: 3rem;
+  font-size: 3.5rem;
+  line-height: 1.07143;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+
+.iphoneProBackground {
+  background-image: url("../img/hero_iphone16pro_avail__fnf0f9x70jiy_largetall.jpg");
+  height: 692px;
+  background-position: center;
+  background-size: cover;
+}
+
+.iphoneBackground {
+  background-image: url("../img/hero_iphone16_avail__euwzls69btea_largetall.jpg");
+  height: 692px;
+  background-position: center;
+  background-size: cover;
+}

@@ -1,0 +1,88 @@
+.headerDesktop {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: saturate(180%) blur(20px);
+  line-height: 1;
+  letter-spacing: 0.04rem;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+}
+
+.headerDesktop nav,
+.headerMobile nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerDesktop nav ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.headerDesktop nav ul li {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 2.75rem;
+}
+
+.headerDesktop a,
+.headerMobile a {
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+  font-size: 0.75rem;
+  padding: 0 0.5rem;
+}
+
+.headerDesktop a:hover,
+.headerMobile a:hover {
+  color: black;
+}
+
+.headerDesktop i {
+  font-size: 0.9rem;
+}
+
+.headerDesktop .apple {
+  font-size: 1.12rem;
+}
+
+.headerMenuMobile {
+  display: flex;
+  list-style-type: none;
+  width: 100%;
+  max-width: 111px;
+  justify-content: space-between;
+}
+
+.headerMobile {
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: saturate(180%) blur(20px);
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+  padding: 14px;
+  display: none;
+}
+
+.headerMobile ul {
+  list-style-type: none;
+}
+
+.headerMobile i {
+  font-size: 1rem;
+}
+
+.headerMobile .apple {
+  font-size: 1.3rem;
+}
+
+.headerMobile.ativo {
+  background-color: white;
+}
+

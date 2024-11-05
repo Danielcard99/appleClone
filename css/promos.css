@@ -1,0 +1,112 @@
+.promos {
+  display: flex;
+  margin-top: 0.8rem;
+  justify-content: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.watch {
+  background-image: url("../img/promo_apple_watch_series_10_avail_lte__c70y29goir42_large.jpg");
+  height: 580px;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-decoration: none;
+  color: black;
+}
+
+.watchWraper {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.watchWraper > .btnBlue,
+.watchWraper > .btnTransparent {
+  padding: 0.5rem 1.125rem;
+  font-size: 0.875rem;
+  line-height: 1.42859;
+}
+
+.airpods {
+  background-image: url("../img/promo_airpods_4_avail__bl22kvpg6ez6_large.jpg");
+  height: 580px;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-decoration: none;
+}
+
+.airpods > .watchWraper {
+  margin-top: 24rem;
+  color: white;
+}
+
+.watchWraper .titulo {
+  font-size: 2.5rem;
+}
+
+.watchWraper .subtitulo {
+  font-size: 1.313rem;
+  line-height: 1.19048;
+  font-weight: 400;
+  letter-spacing: 0.011em;
+  width: 50%;
+  position: relative;
+  margin-bottom: 1.3rem;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 4px;
+}
+
+.macbookAir {
+  background-image: url("../img/promo_macbook_air_m3__e43jegok3wuq_large.jpg");
+  height: 580px;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-decoration: none;
+  color: black;
+}
+
+.macbookAir > .watchWraper,
+.ipadPro > .watchWraper {
+  margin-top: 2.5rem;
+
+}
+
+.ipadPro {
+  background-image: url("../img/promo_ipadpro__ch217v9v7no2_large.jpg");
+  height: 580px;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-decoration: none;
+  color: white;
+}
+
+.ipadPro .watchWraper{
+  margin-top: 2rem;
+}
+
+.ipadPro .subtitulo {
+  width: 30%;
+}
+
+.airpodsMax {
+  background-image: url("../img/promo_airpodsmax_avail__cedra1t5ghn6_large.jpg");
+  height: 580px;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-decoration: none;
+  color: black;
+}
+
+.airpodsMax > .watchWraper {
+  margin-top: 25rem;
+}
+
+.watchUltra {
+  background-image: url("../img/promo_apple_watch_ultra2_avail__dyawbjw9cowi_large.jpg");
+  height: 580px;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-decoration: none;
+  color: white;
+}

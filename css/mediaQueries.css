@@ -1,0 +1,114 @@
+@media screen and (max-width: 768px) {
+  .headerDesktop {
+    display: none;
+  }
+
+  .headerMobile {
+    display: block;
+  }
+
+  .ipadBackground {
+    background-image: url("../img/promo_ipad_mini_announce__dnt5vgkh34uq_small.jpg");
+    height: 500px;
+  }
+
+  .btnBlue,
+  .btnTransparent {
+    padding: 0.58rem 0.98rem;
+    font-size: 0.9rem;
+  }
+
+  .ipadWraper h2 {
+    font-size: 2rem;
+  }
+
+  .ipadWraper .subtitulo {
+    font-size: 1.2rem;
+  }
+
+  .ipadWraper .chamada {
+    font-size: 0.9rem;
+  }
+
+  .iphonePro h2,
+  .iphone h2 {
+    font-size: 2rem;
+  }
+
+  .iphoneProBackground {
+    background-image: url("../img/hero_iphone16pro_avail__fnf0f9x70jiy_small.jpg");
+    height: 500px;
+  }
+
+  .iphoneBackground {
+    background-image: url("../img/promo_iphone16_avail__cl72dn7xdfv6_small.jpg");
+    height: 500px;
+  }
+
+  .promos .w50 {
+    width: 100%;
+  }
+
+  .watch {
+    background-image: url("../img/promo_apple_watch_series_10_avail_lte__c70y29goir42_small.jpg");
+    height: 500px;
+  }
+
+  .airpods {
+    background-image: url("../img/promo_airpods_4_avail__bl22kvpg6ez6_small.jpg");
+    height: 500px;
+  }
+
+  .airpods > .watchWraper {
+    margin-top: 18rem;
+  }
+
+  .airpodsMax {
+    background-image: url("../img/promo_airpodsmax_avail__cedra1t5ghn6_small.jpg");
+    height: 500px;
+  }
+
+  .watchUltra {
+    background-image: url("../img/promo_apple_watch_ultra2_avail__dyawbjw9cowi_small.jpg");
+    height: 500px;
+  }
+
+  .watchWraper .titulo {
+    font-size: 2rem;
+  }
+
+  .watchWraper .subtitulo {
+    font-size: 1.2rem;
+    width: 100%;
+    max-width: 258px;
+  }
+
+  .watchWraper {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .airpodsMax > .watchWraper {
+    margin-top: 22rem;
+  }
+
+  .carrossel {
+    display: none !important;
+  }
+
+  .carrosselMobile {
+    display: block !important;
+  }
+
+  .headerMobile.ativo a:not(.bars) {
+    display: none;
+  }
+
+  .footerDesktop {
+    display: none;
+  }
+
+  .footerMobile {
+    display: block;
+  }
+}
