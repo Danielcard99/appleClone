@@ -49,8 +49,20 @@
   align-items: center;
   justify-content: flex-end;
   cursor: pointer;
-  transition: 2s;
-  animation: 0.24s cubic-bezier(0.4, 0, 0.6, 1) both;
+  color: #333336;
+  animation: showChevron 0.24s cubic-bezier(0.4, 0, 0.6, 1) both;
+  transition: visibility 0.24s step-end;
+}
+
+@keyframes showChevron {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 @keyframes showMenu {

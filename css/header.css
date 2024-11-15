@@ -11,10 +11,25 @@
   top: 0;
 }
 
+.headerDesktop svg {
+  fill: rgba(0, 0, 0, 0.8);
+}
+
+.headerDesktop svg:hover {
+  fill: black;
+  transition: 0.5s;
+}
+
 .headerDesktop nav,
 .headerMobile nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.headerMobile nav,
+ul.headerMenuMobile {
+  height: 48px;
 }
 
 .headerDesktop nav ul {
@@ -41,10 +56,7 @@
 .headerDesktop a:hover,
 .headerMobile a:hover {
   color: black;
-}
-
-.headerDesktop i {
-  font-size: 0.9rem;
+  transition: 0.5s;
 }
 
 .headerDesktop .apple {
@@ -57,6 +69,7 @@
   width: 100%;
   max-width: 111px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .headerMobile {
@@ -66,7 +79,7 @@
   width: 100%;
   z-index: 999;
   top: 0;
-  padding: 14px;
+  padding: 0 0.5rem;
   display: none;
 }
 
@@ -86,3 +99,24 @@
   background-color: white;
 }
 
+.headerMobile.ativo .headerMenuMobile .lupa,
+.headerMobile.ativo .headerMenuMobile .sacola {
+  display: none;
+}
+
+.headerMobile.ativo .headerMenuMobile {
+  justify-content: end;
+}
+
+.headerMobile svg {
+  fill: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.headerMobile svg:hover {
+  fill: black;
+}
+
+.headerMobile .fa-bars {
+  margin-bottom: 0.37rem;
+}
