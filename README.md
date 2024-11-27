@@ -38,3 +38,8 @@ O projeto está disponível online. Clique no link abaixo para visualizá-lo:
 
 ## 📄 Licença
 Este projeto é apenas para fins educacionais e não tem afiliação oficial com a Apple.
+
+## 🏆 Créditos
+
+- Projeto desenvolvido por [Daniel Cardoso](https://github.com/Danielcard99).
+- Inspirado no design oficial do site da [Apple](https://www.apple.com/br/).
