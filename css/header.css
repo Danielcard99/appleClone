@@ -95,10 +95,6 @@ ul.headerMenuMobile {
   font-size: 1.3rem;
 }
 
-.headerMobile.ativo {
-  background-color: white;
-}
-
 .headerMobile.ativo .headerMenuMobile .lupa,
 .headerMobile.ativo .headerMenuMobile .sacola {
   display: none;
@@ -119,4 +115,63 @@ ul.headerMenuMobile {
 
 .headerMobile .fa-bars {
   margin-bottom: 0.37rem;
+}
+
+.dropdownContent {
+  position: absolute;
+  background-color: white;
+  left: 0;
+  padding: 4rem 3rem 7rem 3rem;
+  width: 100%;
+  display: none;
+  animation: headerShow 0.5s forwards;
+}
+
+.dropdownItens {
+  display: flex;
+  gap: 3.8rem;
+}
+
+.dropdownItens ul {
+  display: block !important;
+  width: initial !important;
+}
+
+.dropdownItens ul li {
+  display: block !important;
+  height: initial !important;
+  padding: 0.3rem 0;
+}
+
+.dropdownItens ul li a {
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 0;
+}
+
+.dropdownTitulo {
+  font-size: 0.8rem;
+  color: gray;
+}
+
+.dropdownUl2 a,
+.dropdownUl3 a {
+  font-size: 0.8rem !important;
+}
+
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+
+body.transparente > *:not(.mouseOver) {
+  filter: blur(0.7rem) contrast(50%);
+}
+
+@keyframes headerShow {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 209px, 0);
+  }
 }
