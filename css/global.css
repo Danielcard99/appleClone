@@ -14,11 +14,11 @@
   padding: 0 0.75%;
 }
 
-.btnWraper {
+.btnWrapper {
   margin-top: 1rem;
 }
 
-.btnWraper2 {
+.btnWrapper2 {
   position: absolute;
   bottom: 2rem;
   width: 100%;
@@ -83,4 +83,27 @@
     opacity: 0;
     transform: translate3d(0, 0, 0);
   }
+}
+
+.highlight {
+  background-image: linear-gradient(
+    209deg,
+    #ea6044 39%,
+    #dc5083 50%,
+    #9a6df7 67%,
+    #3f8def 81%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  position: relative;
+  color: transparent;
+}
+
+.chamada {
+  font-size: 1.2rem;
+  line-height: 1.21053;
+  font-weight: 400;
+  letter-spacing: 0.012em;
+  color: #6e6e73;
+  margin-top: 0.5rem;
 }

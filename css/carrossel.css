@@ -20,7 +20,7 @@
   display: none !important;
 }
 
-.carrosselWraper {
+.carrosselWrapper {
   position: absolute;
   z-index: 99999999;
   bottom: 9.6%;
@@ -32,19 +32,23 @@
   opacity: 0;
 }
 
-.carrosselWraper p {
+.chamadaCarrossel {
+  margin-left: 1.125rem;
+  max-width: 83%;
+}
+
+.carrosselWrapper p {
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
 }
 
-.carrosselWraper span {
+.carrosselWrapper span {
   font-weight: 700;
 }
 
-.carrosselWraper span.ponto {
+.carrosselWrapper span.ponto {
   font-size: 1.5rem;
   position: relative;
   top: -4px;
-  line-height: 2.5;
 }
 
 .imgCarrossel {
@@ -74,18 +78,17 @@
   color: white;
 }
 
-.carrosselWraper button {
+.carrosselWrapper button {
   padding: 0.6rem 1.4rem;
   border-radius: 2rem;
   border: 1px solid transparent;
   font-weight: 400;
   font-size: 1.1rem;
   cursor: pointer;
-  margin-right: 1rem;
   background-color: #f5f5f7;
 }
 
-.carrosselWraper button:hover {
+.carrosselWrapper button:hover {
   background-color: white;
 }
 
@@ -105,7 +108,7 @@
   animation: showDown 0.6s forwards;
 }
 
-.carrosselMobile .carrosselWraper {
+.carrosselMobile .carrosselWrapper {
   font-size: 1rem;
   flex-wrap: wrap;
   bottom: 5%;
@@ -117,7 +120,7 @@
   width: 100%;
 }
 
-.carrosselMobile .carrosselWraper button {
+.carrosselMobile .carrosselWrapper button {
   padding: 0.5rem 0.8rem;
   font-size: 1rem;
   margin-top: 0.8rem;
@@ -139,7 +142,7 @@
 }
 
 .carrosselMobile .tituloImg.mls {
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .imgCarrossel .appleTv img {

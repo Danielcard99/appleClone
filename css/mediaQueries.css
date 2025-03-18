@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .headerDesktop {
     display: none;
   }
@@ -7,89 +7,238 @@
     display: block;
   }
 
-  .ipadBackground {
-    background-image: url("../img/promo_ipad_mini_announce__dnt5vgkh34uq_small.jpg");
-    height: 500px;
+  .homePageBackground2 {
+    background-image: url("../img/macBookMedium.jpg");
+    height: 650px;
+    background-size: cover;
   }
 
+  .homePageBackground {
+    background-image: url("../img/ipadMedium.jpg");
+    height: 650px;
+    background-size: cover;
+  }
+
+  .homePageWrapper h2,
+  .promo h2 {
+    font-size: 3rem;
+  }
+
+  .homePageWrapper .subtitulo {
+    font-size: 1.1875rem;
+  }
+
+  .adjustments .highlight {
+    font-size: 1.2rem;
+  }
+
+  .homePageWrapper .chamada {
+    font-size: 0.875rem;
+    width: 100%;
+  }
+
+  .promoWrapper {
+    margin-top: 2rem;
+    height: 100%;
+    max-height: 440px;
+  }
+
+  .promo {
+    background-image: url("../img/promoIphoneFamilyMedium.jpg");
+    height: 490px;
+    background-size: cover;
+  }
+
+  .watchUltra {
+    background-image: url("../img/promoWatchUltraMedium.jpg");
+    height: 490px;
+    background-size: cover;
+  }
+
+  .airPods4 {
+    background-image: url("../img/promoAirpods4Medium.jpg");
+    height: 490px;
+    background-size: cover;
+  }
+
+  .macBookPro {
+    background-image: url("../img/promoMacBookPro.jpg");
+    height: 490px;
+    background-size: cover;
+  }
+
+  .ipad {
+    background-image: url("../img/promoIpad.jpg");
+    height: 490px;
+    background-size: cover;
+  }
+
+  .watch {
+    background-image: url("../img/promoWatchSmall.jpg");
+    height: 490px;
+    background-size: cover;
+  }
+
+  .promo h2 {
+    font-size: 2rem;
+  }
+
+  .promoWrapper .subtitulo {
+    font-size: 1.1875rem;
+    width: 74%;
+    margin-bottom: 0.5rem;
+  }
+
+  .promoWrapper .highlight {
+    font-size: 0.97rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .promo .chamada {
+    font-size: 0.9rem;
+    max-width: 250px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .footerDesktop {
+    display: none;
+  }
+
+  .footerMobile {
+    display: block;
+  }
+
+  .macBookPro .macBookBtnWrapper {
+    margin-top: 1rem;
+  }
+
+  .carrossel {
+    display: none !important;
+  }
+
+  .carrosselMobile {
+    display: block !important;
+  }
+
+  .ipadBtnWrapper {
+    margin-top: 0.8rem;
+  }
+
+  .textPageWrapper {
+    max-height: 570px;
+  }
+
+  .btnWrapper {
+    margin-top: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .btnBlue,
   .btnTransparent {
     padding: 0.58rem 0.98rem;
     font-size: 0.9rem;
   }
 
-  .ipadWraper h2 {
-    font-size: 2rem;
-  }
-
-  .ipadWraper .subtitulo {
-    font-size: 1.2rem;
-  }
-
-  .ipadWraper .chamada {
-    font-size: 0.9rem;
-  }
-
-  .iphonePro h2,
-  .iphone h2 {
-    font-size: 2rem;
-  }
-
-  .iphoneProBackground {
-    background-image: url("../img/hero_iphone16pro_avail__fnf0f9x70jiy_small.jpg");
-    height: 500px;
-  }
-
-  .iphoneBackground {
-    background-image: url("../img/promo_iphone16_avail__cl72dn7xdfv6_small.jpg");
-    height: 500px;
-  }
-
   .promos .w50 {
     width: 100%;
   }
 
-  .watch {
-    background-image: url("../img/promo_apple_watch_series_10_avail_lte__c70y29goir42_small.jpg");
+  .homePageBackground {
+    background-image: url("../img/ipadAirSmall.jpg");
+    background-size: cover;
     height: 500px;
   }
 
-  .airpods {
-    background-image: url("../img/promo_airpods_4_avail__bl22kvpg6ez6_small.jpg");
+  .homePageBackground2 {
+    background-image: url("../img/macBookAirSmall.jpg");
     height: 500px;
+    background-size: cover;
   }
 
-  .airpods > .watchWraper {
-    margin-top: 18rem;
-  }
-
-  .airpodsMax {
-    background-image: url("../img/promo_airpodsmax_avail__cedra1t5ghn6_small.jpg");
+  .homePageBackground3 {
+    background-image: url("../img/macStudioSmall.jpg");
     height: 500px;
+    background-size: cover;
   }
 
-  .watchUltra {
-    background-image: url("../img/promo_apple_watch_ultra2_avail__dyawbjw9cowi_small.jpg");
+  .macBookPro {
+    background-image: url("../img/promoMacbookProSmall.jpg");
     height: 500px;
+    background-size: cover;
   }
 
-  .watchWraper .titulo {
+  .homePageWrapper h2,
+  .promo h2 {
     font-size: 2rem;
+    margin-bottom: 0.5rem;
   }
 
-  .watchWraper .subtitulo {
-    font-size: 1.2rem;
+  .homePageWrapper .subtitulo {
+    font-size: 1.1875rem;
+  }
+
+  .adjustments .textPageWrapper {
+    height: 100%;
+  }
+
+  .adjustments .highlight {
+    font-size: 0.95rem;
+  }
+
+  .homePageWrapper .chamada {
+    font-size: 0.875rem;
     width: 100%;
-    max-width: 258px;
+    max-width: 300px;
   }
 
-  .watchWraper {
-    text-align: center;
-    margin-top: 2rem;
+  .watch {
+    background-image: url("../img/promoWatchSmall.jpg");
+    height: 500px;
+    background-size: cover;
   }
 
-  .airpodsMax > .watchWraper {
-    margin-top: 22rem;
+  .promoWrapper {
+    height: 100%;
+    max-height: 440px;
+    margin-top: 2.5rem;
+  }
+
+  .promoWrapper img {
+    width: 7.5rem;
+  }
+
+  .promoWrapper .subtitulo {
+    font-size: 1.1875rem;
+    width: 100%;
+    margin-bottom: 0.8rem;
+  }
+
+  .promo .chamada {
+    font-size: 0.9rem;
+  }
+
+  .textPromoTop .subtitulo {
+    width: 79%;
+  }
+
+  .textPromoBottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+
+  .textPromoBottom .highlight {
+    font-size: 0.9rem;
+    font-weight: normal;
+  }
+
+  .textPromoBottom .small {
+    width: 67%;
+    margin: 0;
   }
 
   .carrossel {
@@ -104,11 +253,72 @@
     display: none;
   }
 
-  .footerDesktop {
-    display: none;
+  .textPromoTop > .highlight {
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
   }
 
-  .footerMobile {
-    display: block;
+  .macBookPro .subtitulo {
+    margin: 0 0 0.2rem 0;
+  }
+
+  .airPods4 .subtitulo {
+    margin-bottom: 1rem;
+  }
+
+  .macBookPro .textPromoBottom {
+    margin-bottom: 0;
+  }
+
+  .ipadBtnWrapper {
+    margin-top: 1rem;
+  }
+
+  .adjustments .homePageWrapper {
+    height: 100%;
+    max-height: 440px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .homePageWrapper {
+    margin-top: 2.5rem;
+  }
+
+  .textPageWrapper {
+    height: 21vh;
+  }
+
+  .adjustments .homePageWrapper {
+    height: 100%;
+    max-height: 450px;
+  }
+  .adjustments .textPageWrapper {
+    height: 100%;
+  }
+
+  .promoWrapper {
+    height: 100%;
+    max-height: 440px;
+  }
+
+  .ipad .promoWrapper {
+    margin-top: 1rem;
+  }
+
+  .iphonePro .promoWrapper,
+  .iphone .promoWrapper {
+    margin-top: 1rem;
+    max-height: 475px;
+  }
+
+  .textPromoBottom .small {
+    width: 69%;
+    margin: 0;
+  }
+
+  .textPromoTop .subtitulo {
+    width: 82%;
   }
 }
